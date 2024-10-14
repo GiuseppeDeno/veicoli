@@ -37,18 +37,7 @@ public class UsaVeicolo {
 		
 		//il programma stampa la targa dei veicoli guasti . con boolean true 
 		
-		  // Guasta un numero casuale di veicoli
-//        int numGuasti = random.nextInt(listaVeicoli.size()) + 1; // Numero casuale di veicoli da guastare (da 1 a listaVeicoli.size())
-//        
-//        // Guasta i veicoli selezionati casualmente
-//        for (int i = 0; i < numGuasti; i++) {
-//            int index = random.nextInt(listaVeicoli.size()); // Seleziona un indice casuale
-//            Veicolo veicoloDaGuastare = listaVeicoli.get(index); // Ottieni il veicolo corrispondente
-//            veicoloDaGuastare.setGuasto(true); // Imposta il veicolo come guasto
-//            System.out.println("Il veicolo con targa " + veicoloDaGuastare.getTarga() + " è diventato guasto.");
-//        }
-//
-//		
+
 		for (Veicolo Vei : listaVeicoli) {
 			
 			if(Vei.isGuasto()) {
