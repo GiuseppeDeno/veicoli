@@ -56,7 +56,7 @@ public class Veicolo {
     public void cambiaStatoGuasto() {
         this.guasto = !this.guasto; 
         
-        // Cambia il valore attuale di guasto
+       
     }
 
     @Override
